@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(211, 211, 211, 0.5);
+}
+#main-wrapper
+{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%,-50%);
+        border: 1px solid black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        background-color: whitesmoke;
+}
+.avatar
+{
+    width: 150px;
+    text-align: center;
+}
+.myform
+{
+    width :450px;
+    margin: 0 auto;
+
+}
+.inputvalues
+{
+    width: 430px;
+    margin: 0 auto;
+    padding: 5px;
+}
+#login_btn
+{
+    margin-top: 10px;
+    background-color: rgb(44, 136, 44);
+    padding: 5px;
+    color: white;
+    width: 97%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#register_btn
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    width: 97%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#signup_btn
+{
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color: #F0FFFF;
+    padding: 5px;
+    color: black;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#back_btn
+{
+    margin-top: 10px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#logout_btn
+{
+    margin-top: 10px;
+    background-color: rgb(214, 62, 87);
+    padding: 5px;
+    color: white;
+    width: 97%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
