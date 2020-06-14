@@ -38,6 +38,7 @@
         else
         {
             echo '<script type="text/javascript"> alert("Unauthenticated User")</script>';
+            header('location:error.php');
         }
 
         
